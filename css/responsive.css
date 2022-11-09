@@ -1,0 +1,156 @@
+
+/* pc */
+
+@media (min-width: 1024px) {
+    #header .mobile-menu-btn {
+        display: none;
+    }
+}
+
+/* tablet & mobile*/
+
+@media (max-width: 1023px) {
+    #header .mobile-menu-btn {
+        display: none;
+    }
+
+    .btm {
+        padding: 15px 16px;
+    }
+
+    #footer .copyright a, #footer .social-list a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.7);
+        padding: 0 8px;
+    }
+
+    #footer .copyright {
+        padding: 12px 0;
+        display: inline-block;
+    }
+    #nav .subnav a {
+        padding: 5px 38px;
+    }
+
+    .contact-infor {
+        line-height: 2;
+    }
+
+    .contact-submit-btn {
+    font-size: 18px;
+    }
+
+}
+
+/* mobile */
+
+@media (max-width: 740px) {
+    .mt-8 {
+        margin-top: 8px;
+    }
+
+    .s-width-full {
+        width: 100%;
+    }
+    
+    .col {
+        padding-right: 0px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+    
+    #header .search-button {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav > li > a {
+        width: 100%;
+        padding: 1px 24px;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+    }    
+    .contact-submit .contact-input-sub,
+    #contact form {
+        width: 96%;
+    }
+
+    #contact .contact-form {
+        margin-top: 16px;
+    }
+
+    #contact .form-control {
+        width: 100%;
+    }
+
+    #contact .contact-message{
+        width: 100%;
+    }
+
+    .place-content {
+        padding: 6px;
+    }
+
+    #content .member-item {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #content .member-list {
+        display: block;
+    }
+    
+    #content .member-img {
+        width: 60%;
+    }
+
+    #tour .place-items {
+        width: 100%;
+        padding: 16px 0px;
+    }
+
+    #tour .place-list,
+    .contact-input,
+    .content-section .contact-submit {
+        display: block;
+    } 
+
+    .contact-message {
+        margin-top: 10px;
+        width: 370px;
+        max-width: 96%;
+    }
+
+    .btm {
+        width: 100%;
+    }
+
+    .row {
+        margin-left: -8px;
+        margin-right: 8px;
+    }
+}
